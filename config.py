@@ -112,7 +112,7 @@ SOURCE_TYPES = {
     "news_reply":       "direct reply to an outlet's post",
     "news_quote":       "quote-repost of an outlet's post with the person's own comment",
     "news_thread":      "reply inside an outlet's thread, addressed to another commenter",
-    "verified_opinion": f"standalone post by a verified account with ≥ {VERIFIED_MIN_FOLLOWERS:,} followers",
+    "influencer": f"standalone post by a verified account with ≥ {VERIFIED_MIN_FOLLOWERS:,} followers",
     "general_public":   "everyone else",
 }
 OPINION_TYPES = [k for k in SOURCE_TYPES if k != "outlet_post"]   # what sentiment is scored on
